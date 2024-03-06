@@ -4,4 +4,4 @@ Hi Traders Check out this library for your finding optimal entry amount, risk re
 
 Happy tradings.
 
-![Untitled]("https://ibb.co/F62TCZ2")
+![TraderScreen]("https://resimlink.com/txmb8dhyquS")
