@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="entry-container">
+            <h1>Calculator</h1>
+            <form id="calculator-form">
+                <label for="position">Position</label>
+                <select id="position">
+                    <option value="long">Long</option>
+                    <option value="short">Short</option>
+                </select><br>
+                <label for="entry-price">Entry Price:</label>
+                <input type="number" id="entry-price"><br>
+                <label for="exit-price">Profit Price</label>
+                <input type="number" id="exit-price"><br>
+                <label for="stop-price">Stop Price</label>
+                <input type="number" id="stop-price"><br>
+                <label for="balance">Account Balance</label>
+                <input type="number" id="balance" value="1000"><br>
+                <label for="risk_ratio">Risk Ratio %</label>
+                <input type="number" id="risk_ratio" value="2"><br>
+                <button type="button" id="calculate-btn">Calculate</button>
+            </form>
+        </div>
+        <div class="result-container">
+            <h2>Results</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
